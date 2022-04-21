@@ -2,7 +2,8 @@
 
 ## **Resource Groups:**
 
-#### red_team
+### red_team
+#### Region: east US 2
 
 ## **Virtual Networks:**
 
