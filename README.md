@@ -19,22 +19,22 @@ Home Network IP: 67.149.9.102
 
 ### Resource Groups:
 
-- Resource Group: Red_Explore2
+- Resource Group: red-team
 - Region: Australia East
 
 ### Virtual Networks
 
-- Virtual Network:Red_Net1
-- Region: West Europe
-- Resource Group: Red_Explore2
+- Virtual Network:red-net1
+- Region: Australia east
+- Resource Group: red-team
 - Base: 10.0.0.0/16
 - Subnet: 10.0.0.0/24
 
 ### Network Security Groups
 
-- Name:Red-SG1
-- Region: West Europe
-- Resource Group: Red_Explore2
+- Name:red-sg1
+- Region: Australia east
+- Resource Group: red-team
 
 
 ### Inbound Security Rules
