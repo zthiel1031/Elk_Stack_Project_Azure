@@ -1,7 +1,7 @@
 # azure-red-team Lab Day 2
 
 
-**Description:** This is an architectural overview of  a Red-Team demo cloud infrastructure that includes a jump-box and 4 servers running containers that feed logs to a machine running ELK stack.
+**Description:** This is an architectural overview of  a Red-Team demo cloud infrastructure that includes a jump-box and 2 servers running containers that feed logs to a machine running ELK stack.
 
 - [x] Docker is installed and running on the Jump-box.
 - [x] The cyberxsecurity/ansible Docker container is running on the jump-box.
