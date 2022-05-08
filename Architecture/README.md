@@ -1,20 +1,8 @@
 # azure-red-team Lab Day 2
 
 
-**Description:** This is an architectural overview of  a Red-Team demo cloud infrastructure that includes a jump-box and 2 servers running containers that feed logs to a machine running ELK stack.
+**Description:** This is an architectural overview of  a Red-Team demo cloud infrastructure that includes a jump-box and 3 servers running containers that feed logs to a machine running ELK stack.
 
-- [x] Docker is installed and running on the Jump-box.
-- [x] The cyberxsecurity/ansible Docker container is running on the jump-box.
-- [x] The security group has a rule that allows the jump-box ssh access to the vNet.
-- [x] An ssh key created from inside the Ansible container that has no password.
-- [x] The Web VMs password has been reset using the ssh key from the Ansible container.
-- [x] Ansible is able to make a connection to both Web VMs.
-
-Visit `whatsmyip.org` to determine your public facing IP from the space you will be accessing your cloud environment
-
-```
-whatsmyip.org
-```
 Home Network IP: 67.149.9.102
 
 ### Resource Groups:
