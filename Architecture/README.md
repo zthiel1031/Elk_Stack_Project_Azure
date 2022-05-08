@@ -175,29 +175,29 @@ Home Network IP: 67.149.9.102
 - Authentication: Public Key
 
 **Load Balancer**
-Resource group: red-team
-Name: red-LB
-Region: Australia East
-SKU:Basic
-Tier: Regional
-Type: Public
+- Resource group: red-team
+- Name: red-LB
+- Region: Australia East
+- SKU:Basic
+- Tier: Regional
+- Type: Public
 
-Frontend IP configuration name: red-LB
-Frontend IP configuration IP address: To be created
+- Frontend IP configuration name: red-LB
+- Frontend IP configuration IP address: To be created
 
-Backend pool name: web-servers
-Inbound rules: None
-Outbound rules: None
-Tags: Team:red-team
+- Backend pool name: web-servers
+- Inbound rules: None
+- Outbound rules: None
+- Tags: Team:red-team
 
 **Load Blancing Rule**
-Name: red-pool
-IP version: IPV4
-Frontend IP: red-LB
-Backend pool: webservers
-Protocol: TCP
-Port: 80
-Backend Port: 80
+- Name: red-pool
+- IP version: IPV4
+- Frontend IP: red-LB
+- Backend pool: webservers
+- Protocol: TCP
+- Port: 80
+- Backend Port: 80
 
 **Docker Container**
-e770794cdd79: keen_roentgen
+- e770794cdd79: keen_roentgen
