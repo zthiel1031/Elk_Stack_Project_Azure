@@ -45,7 +45,7 @@ Home Network IP: 67.149.9.102
 - Protocol: Custom
 - Action: Deny
 
-**(NEW)**
+
 - Name: allow-SSH-from-jump
 - Priority: 4095
 - Source: *
@@ -55,7 +55,7 @@ Home Network IP: 67.149.9.102
 - Protocol: SSH
 - Action: Allow
 
-**(NEW)**
+
 - Name: allow-ssh-home-jump
 - Priority: 4094
 - Source: 67.149.9.102
@@ -84,7 +84,7 @@ Home Network IP: 67.149.9.102
   - Assignment: Static
   - NIC network security group: Advanced
   - NIC SG: Red-SG1
-**(NEW)**
+
   - Type: Private
   - IP4: 10.0.0.4
   - Assignment: Static
@@ -144,7 +144,7 @@ Home Network IP: 67.149.9.102
 - Admin: redadmin
 - Authentication: Public Key
 
-**- Virtual Machine Name: web-3**
+**- Virtual Machine Name: Elk-vm1.1**
 - Region: Japan East
 - Availability Options: Availability set
 - Availability Set: red-set1
