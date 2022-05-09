@@ -1,4 +1,6 @@
 # Azure Red Team Architecture
+![image](https://user-images.githubusercontent.com/98421187/167335563-2771745a-4df1-4e6a-967b-a0d3d59dc714.png)
+
 
 **Description:** This is an architectural overview of  a Red-Team demo cloud infrastructure that includes a jump-box and 3 servers running containers that feed logs to a machine running ELK stack.
 
