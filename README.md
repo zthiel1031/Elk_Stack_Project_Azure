@@ -3,7 +3,7 @@
 
 **Description:** This is an architectural overview of  a Red-Team demo cloud infrastructure that includes a jump-box and 3 servers running containers that feed logs to a machine running ELK stack.
 
-![](https://github.com/zthiel1031/Elk_Stack_Project_Azure/blob/main/Architecture/Network%20Diagram/diagram.drawio(1).png?raw=true)
+![](https://github.com/zthiel1031/Elk_Stack_Project_Azure/blob/main/Architecture/Network%20Diagram/diagram.drawio%20(1).png?raw=true)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the yml and config file may be used to install only certain pieces of it, such as Filebeat.
 
