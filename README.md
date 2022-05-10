@@ -8,14 +8,11 @@
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the yml and config file may be used to install only certain pieces of it, such as Filebeat.
 
 - [Ansible Playbooks](https://github.com/zthiel1031/Elk_Stack_Project_Azure/tree/main/Ansible)
+- [Docker](https://github.com/zthiel1031/Elk_Stack_Project_Azure/tree/main/Ansible/Docker)
+- [ELK Stack](https://github.com/zthiel1031/Elk_Stack_Project_Azure/tree/main/Ansible/ELK%20Stack)
+- [Filebeat](https://github.com/zthiel1031/Elk_Stack_Project_Azure/tree/main/Ansible/Filebeat)
+- [Metricbeat](https://github.com/zthiel1031/Elk_Stack_Project_Azure/tree/main/Ansible/Metricbeat)
 
-This document contains the following details:
-- Description of the Topology
-- Access Policies
-- ELK Configuration
-    - Beats in Use
-    - Machines Being Monitored
-- How to Use the Ansible Build
 
 ### Description of the Topology
 
